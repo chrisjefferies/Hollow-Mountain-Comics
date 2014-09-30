@@ -1,0 +1,300 @@
+/*-- css for navbar --*/
+
+
+@media all and (min-width: 1200px)
+{
+#banner
+	{
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/main-back4.png');
+	background-position: center;
+	}
+
+#logo
+	{
+	height: auto;
+	width: 50%;
+	display: block;
+	float: left;
+	padding-top: 100px;
+	}
+	
+#logo img
+	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+
+#type
+	{
+	height: auto;
+	width: 35%;
+	display: block;
+	float: left;
+	padding-top: 150px;
+	}
+	
+#banner h2
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	}	
+	
+#banner h3
+	{
+	font-family: 'oswald';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 44px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 15px;
+	}	
+
+#navbar ul 
+	{ 
+	margin: 0; 
+	padding: 7px; 
+	padding-top: 75px;
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #11132f;
+	/* background-image: url('../images/main-back3.png'); */
+	} 
+ 
+#navbar ul li 
+	{  
+	display: inline; 
+	} 
+ 
+#navbar ul li a 
+	{ 
+	text-decoration: none; 
+	font-family: 'oswald'; 
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 9px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 75px;
+	margin: 0;
+	} 
+ 
+#navbar ul li a:hover 
+	{ 
+	color: #fff; 
+	background-color: rgba(255,255,255,0.1);
+	padding-bottom: 7px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 75px;
+	width: 60px;
+	margin: 0;
+	} 
+}	
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{
+#banner
+	{
+	width: 100%;
+	height: 400px;
+	background-image: url('../images/main-back4.png');
+	background-position: center;
+	}
+
+#logo
+	{
+	height: auto;
+	width: 50%;
+	display: block;
+	float: left;
+	padding-top: 60px;
+	}
+	
+#logo img
+	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+
+#type
+	{
+	height: auto;
+	width: 45%;
+	display: block;
+	float: left;
+	padding-top: 90px;
+	}
+	
+#banner h2
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 34px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	}	
+	
+#banner h3
+	{
+	font-family: 'oswald';
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 15px;
+	}	
+
+#navbar ul 
+	{ 
+	margin: 0; 
+	padding: 7px; 
+	padding-top: 75px;
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #11132f; 
+	} 
+ 
+#navbar ul li 
+	{  
+	display: inline; 
+	} 
+ 
+#navbar ul li a 
+	{ 
+	text-decoration: none; 
+	font-family: 'oswald'; 
+	font-size: 20px;
+	color: #fff;
+	padding-bottom: 9px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 75px;
+	margin: 0;
+	} 
+ 
+#navbar ul li a:hover 
+	{ 
+	color: #fff; 
+	background-color: rgba(255,255,255,0.2);
+	padding-bottom: 7px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 75px;
+	margin: 0;
+	} 
+}
+
+@media all and (max-width: 699px) and (min-width: 1px)
+{
+#banner
+	{
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/main-back4.png');
+	background-size: auto 100%;
+	background-position: center center;
+	}
+
+#logo
+	{
+	height: auto;
+	width: 100%;
+	display: block;
+	float: left;
+	padding-top: 30px;
+	}
+	
+#logo img
+	{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: auto;
+	}	
+
+#type
+	{
+	height: auto;
+	width: 100%;
+	display: block;
+	float: left;
+	padding-top: 10px;
+	}
+	
+#banner h2
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	}	
+	
+#banner h3
+	{
+	font-family: 'oswald';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 15px;
+	}	
+	
+#navbar ul 
+	{ 
+	margin: 0; 
+	padding-top: 5px;
+	padding-left: 20px;
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #171743; 
+	} 
+ 
+#navbar ul li 
+	{  
+	display: block; 
+	padding: 4px 10px;
+	} 
+
+#navbar ul li a 
+	{ 
+	text-decoration: none; 
+	font-family: 'oswald'; 
+	font-size: 22px;
+	color: #fff;
+	padding: 1px;
+	margin: 0;
+	} 
+ 
+#navbar ul li a:hover 
+	{ 
+	color: #fff; 
+	background-color: rgba(255,255,255,0.2);
+	padding: 1px;
+	margin: 0;
+	} 
+}

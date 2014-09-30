@@ -1,0 +1,106 @@
+/*--Hollow Mountian Business css--
+---  tablet starts at around 260  --  --  mobile starts at around 520 -- */
+
+
+
+@media all and (min-width: 1200px)
+{
+
+#powell-gallery-mob
+	{
+	background-image: url('../images/ticks.png');
+	padding: 50px 0;
+	}
+
+#message-desk
+	{
+	font-family: 'sintony';
+	font-size: 20px;
+	}
+	
+#message-desk article
+	{
+	width: 50%;
+	margin: 0 auto;
+	}
+
+#message-tab
+	{
+	display: none;
+	}
+	
+#message-tab
+	{
+	display: none;
+	}	
+
+#powell-gallery-mob img
+	{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+	}
+
+	
+
+}		/* larger than 1200px */
+
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{	
+
+#message-desk
+	{
+	display: none;
+	}
+
+#message-tab
+	{
+	font-family: 'sintony';
+	font-size: 20px;
+	}
+	
+#message-tab article
+	{
+	width: 50%;
+	margin: 0 auto;
+	}
+
+#powell-gallery-mob img
+	{
+	width: 60%;
+	display: block;
+	margin: 15px auto;
+	}
+	
+}	
+	
+	
+@media all and (max-width: 699px) and (min-width: 1px)
+{	
+
+#message-desk
+	{
+	display: none;
+	}
+	
+#message-tab
+	{
+	display: none;
+	}	
+
+#powell-gallery-mob img
+	{
+	width: 80%;
+	display: block;
+	margin: 15px auto;
+	}
+	
+}
+	
+
+
+
+
+
+

@@ -1,0 +1,580 @@
+/*--Hollow Mountian Business css--
+---  tablet starts at around 260  --  --  mobile starts at around 520 -- */
+
+@media all and (min-width: 1200px)
+{
+
+#business
+	{
+	width: 100%;
+	height: 940px;
+	display: block;
+	background-image: url('../images/binding_dark.png');
+	}
+
+#bus-a20
+	{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-a20.png');
+	background-position: center center;
+	background-size: auto 100%;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+
+#bus-a20:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}		
+
+#bus-a80
+	{
+	width: 80%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-a80.png');
+	opacity: 1;
+	background-position: top;
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+/*
+#bus-a80:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+*/
+
+#bus-b5-1
+	{
+	width: 5%;
+	height: 300px;
+	display: block;
+	float: left;
+	/*background-image: url('../images/bus-a20.png');*/
+	background-color: #252535;
+	background-position: top center;
+	margin: 10px 0 0 0;
+	}
+
+#bus-b25-1
+	{
+	width: 25%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-b25-1.png');
+	background-position: center center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-b25-1:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}		
+
+#bus-b40
+	{
+	width: 40%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+#bus-b40 h4
+	{
+	font-family: 'oswald';
+	font-size: 22px;
+	padding: 0;
+	margin: 15px 0 0 0;
+	text-align: center;
+	}
+
+#bus-b40 p
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	}
+
+#bus-b25-2
+	{
+	width: 25%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-b25-2.png');
+	background-position: center center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-b25-2:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}			
+
+#bus-b5-2
+	{
+	width: 5%;
+	height: 300px;
+	display: block;
+	float: left;
+	/*background-image: url('../images/bus-b5-2.png');*/
+	background-color: #252535;
+	margin: 10px 0 0 0;
+	}
+
+#bus-c50
+	{
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-c50.png');
+	background-position: top center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-c50:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}				
+
+#bus-c40
+	{
+	width: 40%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-c40.png');
+	background-position: top center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-c40:hover	
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+
+#bus-c10
+	{
+	width: 10%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-c10.png');
+	background-position: top center;
+	background-size: auto 100%;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+
+#bus-c10:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}
+
+#bus-c10 article
+	{
+	font-family: 'sintony';
+	font-size: 28px;
+	line-height: 52px;
+	color: #fff;
+	margin: 0;
+	padding: 0 0 0 10px;
+	height: 150px;
+	opacity: 0.1;
+	}	
+
+#bus-c10 article:hover
+	{
+	opacity: 0.4;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+
+#bus-c10 h5
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+
+}		/* larger than 1200px */
+
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{	
+
+#business
+	{
+	width: 100%;
+	height: 940px;
+	display: block;
+	background-image: url('../images/binding_dark.png');
+	}
+
+#bus-a20
+	{
+	display: none;
+	}		
+
+#bus-a80
+	{
+	width: 100%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-a80.png');
+	opacity: 1;
+	background-position: top;
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+/*
+#bus-a80:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+*/
+
+#bus-b5-1
+	{
+	display: none;
+	}
+
+#bus-b25-1
+	{
+	display: none;
+	}
+
+#bus-b40
+	{
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+#bus-b40 h4
+	{
+	font-family: 'oswald';
+	font-size: 22px;
+	padding: 0;
+	margin: 15px 0 0 0;
+	text-align: center;
+	}
+
+#bus-b40 p
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	}
+
+#bus-b25-2
+	{
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-b25-2.png');
+	background-position: center center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-b25-2:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}			
+
+#bus-b5-2
+	{
+	display: none;
+	}
+
+#bus-c50
+	{
+	width: 100%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-c50.png');
+	background-position: top center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-c50:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}				
+
+#bus-c40
+	{
+	display: none;
+	}
+
+#bus-c10
+	{
+	display: none;
+	}
+
+
+#bus-c10 article
+	{
+	display: none;
+	}	
+
+#bus-c10 h5
+	{
+	display: none;
+	}
+	
+	
+}	
+	
+	
+@media all and (max-width: 699px) and (min-width: 1px)
+{	
+
+#business
+	{
+	width: 100%;
+	height: 765px;
+	display: block;
+	background-image: url('../images/binding_dark.png');
+	}
+
+#bus-a20
+	{
+	display: none;
+	}		
+
+#bus-a80
+	{
+	width: 100%;
+	height: 225px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-a80.png');
+	opacity: 0.2;
+	background-position: top;
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+#bus-a80:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+
+#bus-b5-1
+	{
+	display: none;
+	}
+
+#bus-b25-1
+	{
+	display: none;
+	}
+
+#bus-b40
+	{
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	background-size: 100% auto;
+	margin: 10px 0 0 0;
+	}
+
+#bus-b40 h4
+	{
+	font-family: 'oswald';
+	font-size: 18px;
+	padding: 0;
+	margin: 10px 0 0 0;
+	text-align: center;
+	}
+
+#bus-b40 p
+	{
+	width: 90%;
+	
+	font-family: 'sintony';
+	font-size: 14px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+#bus-b25-2
+	{
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-b25-2.png');
+	background-position: center center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-b25-2:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}			
+
+#bus-b5-2
+	{
+	display: none;
+	}
+
+#bus-c50
+	{
+	width: 100%;
+	height: 200px;
+	display: block;
+	float: left;
+	background-image: url('../images/bus-c50.png');
+	background-position: top center;
+	background-size: 100% auto;
+	opacity: 0.2;
+	margin: 10px 0 0 0;
+	}
+	
+#bus-c50:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}				
+
+#bus-c40
+	{
+	display: none;
+	}
+
+#bus-c10
+	{
+	display: none;
+	}
+
+
+#bus-c10 article
+	{
+	display: none;
+	}	
+
+#bus-c10 h5
+	{
+	display: none;
+	}	
+	
+	
+	
+	
+}
+	
+
+
+
+
+
+

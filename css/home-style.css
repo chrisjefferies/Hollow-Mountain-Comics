@@ -1,0 +1,1519 @@
+/*--Hollow Mountian css Beginning with Content below the nav bar. 
+That stuff is in css/nav-style.css in the root directory--*/
+
+
+@media all and (min-width: 1200px)
+{
+
+#errormsg
+	{
+	display: none;
+	}
+	
+#scrollbox
+	{
+	width: 900px;
+	height: 220px;
+	margin: 0 auto;
+	}
+
+#wrap
+	{
+	padding: 35px 0 0 0;
+	}	
+	
+#content
+	{
+	height: 5080px;
+	}	
+
+
+
+	
+/*
+
+	IF YOU'RE HERE LOOKING FOR STYLES FOR THE BIG OL' MIDDLE SECTION 
+	WITH ALL THOSE NICE CONTAINERS AND IMAGES, YOU LOOKIN' IN DA WRONG
+	PLACE. TRY LOOKIN' FER bus-styles.css IN THE CSS FOLDER OF THE ROOT
+	DIRECTORY. ALL THE STUFF FOR THAT MONSTER ENDED UP IN ITS OWN GIZMO.
+	(IT WAS DESIGNATED "BUSINESS" TYPE STUFF IN THE NAMING CONVENTION.	
+
+*/	
+
+
+
+#comics
+	{
+	width: 50%;
+	height: 600px;
+	background-image: url('../images/ticks.png');
+	display: block;
+	float: left;
+	}	
+	
+#comics h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 49px;
+	font-size: 44px;
+	color: #222432;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	
+#comics h3 strong
+	{
+	font-size: 100px;
+	line-height: 100px;
+	}	
+
+#comics img
+	{
+	display: block;
+	margin: 0;
+	float: right;
+	padding: 0 20px 10px 0;
+	}
+	
+#comics article
+	{
+	width: 450px;
+	display: block;
+	float: right;
+	margin: 20px 0 0 0;
+	padding: 0 20px 0 0;
+	}
+
+#comics p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 16px;
+	color: #000;
+	padding: 10px 0 0 0;
+	margin: 0;
+	text-align: justify;		
+	}
+	
+#games
+	{
+	width: 50%;
+	height: 600px;
+	background-image: url('../images/skcit.png');
+	display: block;
+	float: left;
+	}
+	
+#notesfrom
+	{
+	width: 65%;
+	height: 310px;
+	margin: 70px 0 0 0;
+	display: block;
+	float: right;
+	}		
+	
+#games h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 60px;
+	font-size: 54px;
+	color: #222432;
+	margin: 0 0 0 20px;
+	text-align: left;
+	}
+	
+#games article
+	{
+	width: 450px;
+	margin: 0 0 0 40px;
+	padding: 20px 0 0 0;
+	}
+
+#games p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	text-align: justify;		
+	}	
+	
+#store
+	{
+	width: 100%;
+	height: 550px;
+	background-image: url('../images/binding_dark.png');
+	display: block;
+	float: left;
+	}	
+	
+#store article
+	{
+	width: 480px;
+	display: block;
+	margin: 0 auto;
+	padding: 128px 0 0 0;
+	}
+
+#store p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 19px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: justify;		
+	}		
+	
+#crackinto
+	{
+	width: 50%;
+	display: block;
+	float: left;
+	}
+	
+#crackinto h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 65px;
+	font-size: 62px;
+	color: #ddd;
+	padding: 40px 8px 0 0;
+	margin: 0;
+	text-align: right;
+	}	
+	
+#darkline
+	{
+	width: 100%;
+	height: 1px;
+	background-color: #222;
+	}
+	
+#community
+	{
+	width: 100%;
+	height: 700px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	margin: 0;
+	padding: 10px 0 0 0;
+	}
+
+#articlepad
+	{
+	width: 10%;
+	height: 700px;
+	display: block;
+	float: left;
+	}
+
+#community article
+	{
+	width: 30%;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	}
+	
+#community h2
+	{
+	font-family: 'oswald';
+	font-size: 38px;
+	color: #fff;
+	}
+	
+#community p
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	color: #fff;
+	}
+
+#com-img
+	{
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 50px 0 0 50px;
+	}	
+	
+#com-img img
+	{ 
+	width: 100%; 
+	}	
+
+#com-line1
+	{
+	display: block;
+	float: left;
+	height: 8px;
+	background-color: #222;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+#com-line2
+	{
+	height: 8px;
+	background-color: #444;
+	width: 80%;
+	margin: 150px auto 0 auto;
+	}
+
+
+/*
+
+--- insert art section here, in the event that original art section returns ---
+--- note: responsive styles were not developed for this section, as it was cut
+before responsive implimentation during beta1.0 ---
+--- find the original code corresponding to commented out html on index.html at the
+bottom of this document ---   	
+	
+*/	
+	
+#powell
+	{
+	width: 100%;
+	height: 800px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	}	
+	
+#np-rail
+	{
+	width: 30%;
+	height: 800px;
+	display: block;
+	float: left;
+	}	
+
+#np-mug
+	{
+	width: 90%;
+	margin: 30px auto;
+	background-image: url('../powell/np-mug.png');
+	background-position: top center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 260px;
+	display: block;
+	}
+	
+#np-rail h3
+	{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'oswald';
+	font-size: 39px;
+	line-height: 45px;
+	text-align: center;
+	}	
+	
+#np-rail p
+	{
+	font-family: 'sintony';
+	width: 90%;
+	margin: 4px auto;
+	font-size: 16px;
+	text-align: justify;
+	}	
+
+#hidemob
+	{
+	font-family: 'sintony';
+	width: 90%;
+	margin: 4px auto;
+	font-size: 16px;
+	text-align: justify;
+	}	
+
+
+#powell-gallery-1
+	{
+	width: 70%;
+	height: 420px;
+	display: block;
+	float: left;
+	margin: 20px 0;
+	}
+
+#gallery-item	
+	{
+	width: 14%;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 10px;
+	display: block;
+	float: left;
+	}
+	
+#gallery-item-hidetab	
+	{
+	width: 14%;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 10px;
+	display: block;
+	float: left;
+	}	
+
+#gallery-vertsp
+	{
+	width: 1px;
+	height: 420px;
+	display: block;
+	float: left;
+	}	
+
+#powell-gallery-2	
+	{
+	width: 70%;
+	height: 400px;
+	display: block;
+	float: left;
+	margin: 20px 0;
+	}
+	
+#gallery-item-2
+	{
+	width: 47%;
+	height: 420px;
+	margin: 0 10px;
+	display: block;
+	float: left;	
+	}
+
+#mob
+	{
+	display: none;
+	}
+
+
+	
+#bio
+	{
+	width: 100%;
+	height: 920px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	}	
+
+#biopad
+	{
+	width: 10%;
+	height: 900px;
+	display: block;
+	float: left;
+	}
+	
+#bioarticle
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	float: left;
+	width: 30%;
+	height: 900px;
+	margin: 40px 0 0 0;
+	text-align: justify;
+	}	
+	
+#biogut
+	{
+	width: 4%;
+	height: 900px;
+	display: block;
+	float: left;
+	}
+	
+#bioimgs
+	{
+	width: 50%;
+	height: 900px;
+	display: block;
+	float: left;
+	margin: 60px 0 0 0;
+	}
+
+#gabe1
+	{
+	width: 50%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/gabe.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	}
+	
+#aaron1
+	{
+	width: 50%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/aaron.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	}	
+
+#gabe2
+	{
+	width: 49%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/gabe_photo.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 150%;
+	}
+	
+#aaron2
+	{
+	width: 49%;
+	height: 450px;
+	display: block;
+	margin: 80px 0 0 0;
+	float: right;
+	background-image: url('../images/aaron_photo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 150%;
+	}	
+	
+}		/* larger than 1200px */
+	
+	 	
+	
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{	
+
+#errormsg
+	{
+	display: none;
+	}
+
+
+#scrollbox
+	{
+	display: none;
+	}
+	
+	
+
+
+#wrap
+	{
+	padding: 35px 0 0 0;
+	}	
+	
+#content
+	{
+	height: 4980px;
+	}	
+	
+#comics
+	{
+	width: 100%;
+	height: 340px;
+	background-image: url('../images/ticks.png');
+	display: block;
+	float: left;
+	}	
+	
+#comics h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 49px;
+	font-size: 44px;
+	color: #222432;
+	padding: 10px 0 0 0;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	
+#comics img
+	{
+	display: block;
+	margin: 0;
+	float: right;
+	padding: 0 20px 10px 0;
+	}
+	
+#comics article
+	{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 0 20px 0 0;
+	}
+
+#comics p
+	{
+	width: 550px;
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 16px;
+	color: #000;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	text-align: justify;		
+	}
+	
+#games
+	{
+	width: 100%;
+	height: 400px;
+	background-image: url('../images/skcit.png');
+	display: block;
+	float: left;
+	}
+	
+#notesfrom
+	{
+	width: 30%;
+	height: 400px;
+	margin: 10px 0 0 0;
+	display: block;
+	float: left;
+	}		
+	
+#games h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 60px;
+	font-size: 54px;
+	color: #222432;
+	margin: 0 20px;
+	text-align: right;
+	}
+	
+#games article
+	{
+	width: 70%;
+	margin: 0 0 0 40px;
+	padding: 20px 0 0 0;
+	}
+
+#games p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+	}	
+	
+#store
+	{
+	width: 100%;
+	height: 550px;
+	background-image: url('../images/binding_dark.png');
+	display: block;
+	float: left;
+	}	
+	
+#store article
+	{
+	width: 480px;
+	display: block;
+	margin: 0 auto;
+	padding: 128px 0 0 0;
+	}
+
+#store p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 19px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: justify;		
+	}		
+	
+#crackinto
+	{
+	width: 50%;
+	display: block;
+	float: left;
+	}
+	
+#crackinto h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 65px;
+	font-size: 62px;
+	color: #ddd;
+	padding: 40px 8px 0 0;
+	margin: 0;
+	text-align: right;
+	}	
+	
+#darkline
+	{
+	width: 100%;
+	height: 1px;
+	background-color: #222;
+	}
+	
+#community
+	{
+	width: 100%;
+	height: 525px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	margin: 0;
+	padding: 10px 0 0 0;
+	}
+
+#articlepad
+	{
+	display: none;
+	}
+
+#community article
+	{
+	width: 70%;
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	}
+	
+#community h2
+	{
+	font-family: 'oswald';
+	font-size: 38px;
+	text-align: left;
+	color: #fff;
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+	
+#community p
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	color: #fff;
+	width: 90%;
+	float: left;
+	text-align: justify;
+	}
+
+#com-img
+	{
+	display: block;
+	width: 30%;
+	margin: 0;
+	float: left;
+	}	
+	
+#com-img img
+	{ 
+	width: 90%;
+	display: block;
+	margin: 90px auto; 
+	}	
+
+#com-line1
+	{
+	display: block;
+	float: left;
+	height: 8px;
+	background-color: #222;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+#com-line2
+	{
+	display: none;
+	}
+	
+/*
+
+--- insert art section here, in the event that original art section returns ---
+--- note: responsive styles were not developed for this section, as it was cut
+before responsive implimentation during beta1.0 ---
+--- find the original code corresponding to commented out html on index.html at the
+bottom of this document ---   	
+	
+*/
+
+#powell
+	{
+	width: 100%;
+	height: 800px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	}	
+	
+#np-rail
+	{
+	width: 100%;
+	height: 275px;
+	display: block;
+	float: left;
+	}	
+
+#np-mug
+	{
+	width: 20%;
+	background-image: url('../powell/np-mug.png');
+	background-position: top center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	margin: 30px 0 0 10px;
+	height: 250px;
+	display: block;
+	float: left;
+	}
+	
+#np-rail h3
+	{
+	width: 90%;
+	font-family: 'oswald';
+	font-size: 23px;
+	line-height: 26px;
+	text-align: center;
+	}	
+	
+#np-rail p
+	{
+	font-family: 'sintony';
+	width: 70%;
+	display: block;
+	float: right;
+	margin: 4px 20px;
+	font-size: 16px;
+	text-align: justify;
+	}	
+
+#hidemob
+	{
+	font-family: 'sintony';
+	width: 70%;
+	display: block;
+	float: right;
+	margin: 4px 20px;
+	font-size: 16px;
+	text-align: justify;
+	}
+		
+
+
+#powell-gallery-1
+	{
+	width: 60%;
+	height: 420px;
+	display: block;
+	float: right;
+	margin: 20px 0;
+	}
+
+#gallery-item	
+	{
+	width: 13%;
+	height: 450px;
+	margin: 0 10px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	background-color: white;
+	}
+
+#gallery-item-hidetab
+	{
+	display: none;
+	}	
+
+#gallery-vertsp
+	{
+	display: none;
+	}	
+
+#powell-gallery-2	
+	{
+	width: 40%;
+	height: 400px;
+	display: block;
+	float: left;
+	margin: 20px 0;
+	}
+	
+#gallery-item-2
+	{
+	width: 95%;
+	height: 220px;
+	margin: 0 10px 10px 10px;
+	display: block;
+	float: left;	
+	overflow: hidden;
+	}
+
+#mob
+	{
+	display: none;
+	}
+
+
+#bio
+	{
+	width: 100%;
+	height: 980px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	}	
+
+#biopad
+	{
+	display: none;
+	}
+	
+#bioarticle
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	width: 90%;
+	margin: 40px auto;
+	text-align: justify;
+	}	
+	
+#biogut
+	{
+	display: none;
+	}
+	
+#bioimgs
+	{
+	width: 75%;
+	display: block;
+	margin: 10px auto;
+	}
+
+#gabe1
+	{
+	width: 50%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/gabe.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	}
+	
+#aaron1
+	{
+	width: 50%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/aaron.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100%;
+	}	
+
+#gabe2
+	{
+	width: 49%;
+	height: 450px;
+	display: block;
+	float: left;
+	background-image: url('../images/gabe_photo.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 150%;
+	}
+	
+#aaron2
+	{
+	width: 49%;
+	height: 450px;
+	display: block;
+	margin: 60px 0 0 0;
+	float: right;
+	background-image: url('../images/aaron_photo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 150%;
+	}	
+
+	
+	
+}	
+	
+@media all and (max-width: 699px) and (min-width: 319px)
+{	
+
+#errormsg
+	{
+	display: none;
+	}
+
+#scrollbox
+	{
+	display: none;
+	}
+
+#wrap
+	{
+	padding: 35px 0 0 0;
+	}	
+	
+#content
+	{
+	height: 4270px;
+	}	
+	
+#comics
+	{
+	width: 100%;
+	height: 400px;
+	background-image: url('../images/ticks.png');
+	display: block;
+	float: left;
+	}	
+	
+#comics h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 26px;
+	font-size: 22px;
+	color: #222432;
+	padding: 10px 0 0 0;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	
+#comics img
+	{
+	display: block;
+	margin: 0;
+	float: right;
+	padding: 0 20px 10px 0;
+	}
+	
+#comics article
+	{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 0 20px 0 0;
+	}
+
+#comics p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 19px;
+	font-size: 14px;
+	color: #000;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	text-align: left;		
+	}
+	
+#games
+	{
+	width: 100%;
+	height: 360px;
+	background-image: url('../images/skcit.png');
+	display: block;
+	float: left;
+	}
+	
+#notesfrom
+	{
+	width: 30%;
+	float: left;
+	padding: 20px 0;
+	}		
+	
+#games h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 30px;
+	font-size: 26px;
+	color: #222432;
+	margin: 0 10px;
+	text-align: right;
+	}
+	
+#games article
+	{
+	width: 90%;
+	margin: 0 0 0 10px;
+	padding: 20px 0 0 0;
+	}
+
+#games p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 19px;
+	font-size: 14px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	text-align: left;		
+	}	
+	
+#store
+	{
+	width: 100%;
+	height: 320px;
+	background-image: url('../images/binding_dark.png');
+	display: block;
+	float: left;
+	}	
+	
+#store article
+	{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 32px 0 0 0;
+	}
+
+#store p
+	{
+	font-family: 'sintony';
+	font-weight: 400;
+	line-height: 19px;
+	font-size: 14px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: left;		
+	}		
+	
+#crackinto
+	{
+	width: 35%;
+	display: block;
+	float: left;
+	}
+	
+#crackinto h3
+	{
+	font-family: 'oswald';
+	font-weight: 700;
+	line-height: 29px;
+	font-size: 24px;
+	color: #ddd;
+	padding: 20px 8px 0 0;
+	margin: 0;
+	text-align: right;
+	}	
+	
+#darkline
+	{
+	width: 100%;
+	height: 1px;
+	background-color: #222;
+	}
+	
+#community
+	{
+	width: 100%;
+	height: 565px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	margin: 0;
+	padding: 10px 0 0 0;
+	}
+
+#articlepad
+	{
+	display: none;
+	}
+
+#community article
+	{
+	width: 100%;
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	}
+	
+#community h2
+	{
+	font-family: 'oswald';
+	font-size: 22px;
+	text-align: left;
+	color: #fff;
+	width: 90%;
+	margin: 10px auto;
+	padding: 0;
+	}
+	
+#community p
+	{
+	font-family: 'sintony';
+	font-size: 14px;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	}
+
+#com-img
+	{
+	display: none;
+	}		
+
+#com-line1
+	{
+	display: block;
+	float: left;
+	height: 8px;
+	background-color: #222;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+#com-line2
+	{
+	display: none;
+	}
+	
+/*
+
+--- insert art section here, in the event that original art section returns ---
+--- note: responsive styles were not developed for this section, as it was cut
+before responsive implimentation during beta1.0 ---
+--- find the original code corresponding to commented out html on index.html at the
+bottom of this document ---   	
+	
+*/
+
+#powell
+	{
+	width: 100%;
+	height: 640px;
+	display: block;
+	float: left;
+	background-image: url('../images/ticks.png');
+	}	
+	
+#np-rail
+	{
+	width: 100%;
+	height: 275px;
+	display: block;
+	float: left;
+	}	
+
+#np-mug
+	{
+	width: 100%;
+	background-image: url('../powell/np-circle.png');
+	background-position: center center;
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+	height: 250px;
+	display: block;
+	float: left;
+	}
+	
+#np-rail h3
+	{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'oswald';
+	font-size: 29px;
+	line-height: 32px;
+	text-align: center;
+	}	
+	
+#np-rail p, #mob 
+	{
+	font-family: 'sintony';
+	width: 90%;
+	display: block;
+	margin: 4px auto;
+	font-size: 14px;
+	}	
+	
+#hidemob
+	{
+	display: none;
+	}	
+
+
+#powell-gallery-1
+	{
+	display: none;
+	}
+
+#gallery-item	
+	{
+	display: none;
+	}
+
+#gallery-item-hidetab
+	{
+	display: none;
+	}	
+
+#gallery-vertsp
+	{
+	display: none;
+	}	
+
+#powell-gallery-2	
+	{
+	display: none;
+	}
+	
+#gallery-item-2
+	{
+	display: none;
+	}
+	
+		
+	
+
+#bio
+	{
+	width: 100%;
+	height: 660px;
+	display: block;
+	float: left;
+	background-image: url('../images/binding_dark.png');
+	}	
+
+#biopad
+	{
+	display: none;
+	}
+	
+#bioarticle
+	{
+	font-family: 'sintony';
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	}	
+	
+#biogut
+	{
+	display: none;
+	}
+	
+#bioimgs
+	{
+	display: none;
+	}
+
+#gabe1
+	{
+	display: none;
+	}
+	
+#aaron1
+	{
+	display: none;
+	}	
+
+#gabe2
+	{
+	display: none;
+	}
+	
+#aaron2
+	{
+	display: none;
+	}	
+
+	
+}
+	
+	
+	
+	
+	
+	
+	
+/*
+#art
+	{
+	width: 100%;
+	height: 750px;
+	display: block;
+	float: left;
+	background-image: url('../images/textured_paper.png');
+	}
+	
+#art h3
+	{
+	font-family: 'oswald';
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 0 0;
+	}
+
+#art h4
+	{
+	font-family: 'oswald';
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}	
+
+#art article
+	{
+	width: 960px;
+	margin: 0 auto;
+	}
+
+#art p
+	{
+	font-family: 'sintony';
+	font-size: 16px;
+	}		
+
+#ori
+	{
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+	float: center;
+	}
+
+#ori-1
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-1.png');
+	background-position: center center;
+	}
+
+#ori-2
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-2.png');
+	background-position: center center;
+	}
+	
+#ori-3
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-3.png');
+	background-position: center center;
+	}	
+
+#ori-4
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-4.png');
+	background-position: center center;
+	}	
+	
+#ori-5
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-5.png');
+	background-position: center center;
+	}		
+	
+#ori-6
+	{
+	width: 150px;
+	height: 500px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	border: 1px solid #000;
+	display: block;
+	float: left;
+	background-image: url('../originals/ori-6.png');
+	background-position: center center;
+	}	
+	
+	*/	
+	
+		
+	
+	
+	

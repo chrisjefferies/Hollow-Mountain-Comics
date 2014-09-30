@@ -1,0 +1,511 @@
+/* -- css for digital page -- */
+
+
+@media all and (min-width: 1200px)
+{
+
+#content-dig
+	{
+	margin: 0;
+	padding: 0;
+	height: 1740px;
+	background-image: url('../images/ticks.png');
+	}
+
+#dig-page h3
+	{
+	font-family: 'oswald';
+	width: 90%;
+	margin: 30px auto;
+	font-size: 30px;
+	text-align: center;
+	}
+	
+
+	
+#instr ul
+	{
+	list-style: none;
+	}	
+	
+#instr ul li
+	{
+	display: inline;
+	}	
+	
+#subscriptions
+	{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	border-bottom: 8px solid #ccc;
+	display: block;
+	
+	
+	
+	}
+	
+#subscriptions h2
+	{
+	font-family: 'oswald';
+	font-size: 60px;
+	line-height: 25px;
+	text-align: center;
+	}	
+	
+#subscriptions article
+	{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'sintony';
+	}	
+
+#instr-bg
+	{
+	background-image: url('../images/binding_dark.png');
+	padding: 15px 0;
+	}
+
+#instr
+	{
+	width: 75%;
+	height: 400px;
+	border: 1px solid #000;
+	margin: 15px auto;
+	background-color: white;	
+	/*
+	/*background: rgb(214,197,190); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(214,197,190,1) 0%, rgba(186,168,161,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,197,190,1)), color-stop(100%,rgba(186,168,161,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6c5be', endColorstr='#baa8a1',GradientType=0 ); /* IE6-9 */	
+	}
+
+#instr h2, #instr h3
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+#instr h2
+	{
+	font-size: 22px;
+	font-family: 'oswald';
+	padding: 15px 0;
+	text-align: center;
+	}
+	
+#instr h3
+	{
+	font-size: 16px;
+	font-family: 'sintony';
+	text-align: left;
+	padding: 10px 30px;
+	}	
+
+#instr img
+	{
+	display: block;
+	float: left;
+	}	
+
+
+
+#storefront
+	{
+	width: 100%;
+	height: 400px;
+	background-position: center top;
+	background-size: 100% auto;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	}
+	
+#tab
+	{
+	}
+	
+#mob
+	{
+	display: none;
+	}		
+
+}
+
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{
+
+#content-dig
+	{
+	margin: 0;
+	padding: 0;
+	height: 1740px;
+	background-image: url('../images/ticks.png');
+	}
+
+#dig-page h3
+	{
+	font-family: 'oswald';
+	width: 90%;
+	margin: 30px auto;
+	font-size: 20px;
+	text-align: center;
+	}
+	
+
+	
+#instr ul
+	{
+	list-style: none;
+	}	
+	
+#instr ul li
+	{
+	display: inline;
+	}	
+	
+#subscriptions
+	{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	border-bottom: 8px solid #ccc;
+	display: block;
+	
+	
+	
+	}
+	
+#subscriptions h2
+	{
+	font-family: 'oswald';
+	font-size: 42px;
+	line-height: 34px;
+	text-align: center;
+	}	
+	
+#subscriptions article
+	{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'sintony';
+	}	
+
+#instr-bg
+	{
+	background-image: url('../images/binding_dark.png');
+	padding: 15px 0;
+	}
+
+#instr
+	{
+	width: 75%;
+	height: 400px;
+	border: 1px solid #000;
+	margin: 15px auto;
+	background-color: white;	
+	/*
+	/*background: rgb(214,197,190); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(214,197,190,1) 0%, rgba(186,168,161,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,197,190,1)), color-stop(100%,rgba(186,168,161,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6c5be', endColorstr='#baa8a1',GradientType=0 ); /* IE6-9 */	
+	}
+
+#instr h2, #instr h3
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+#instr h2
+	{
+	font-size: 22px;
+	font-family: 'oswald';
+	padding: 15px 0;
+	text-align: center;
+	}
+	
+#instr h3
+	{
+	font-size: 16px;
+	font-family: 'sintony';
+	text-align: left;
+	padding: 10px 30px;
+	}	
+
+#instr img
+	{
+	display: block;
+	float: left;
+	}	
+
+
+
+#storefront
+	{
+	width: 100%;
+	height: 400px;
+	background-position: center top;
+	background-size: 100% auto;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	}
+
+#tab
+	{
+	}
+	
+#mob
+	{
+	display: none;
+	}	
+
+
+}
+
+
+
+
+@media all and (max-width: 699px) and (min-width: 250px)
+{
+
+#content-dig
+	{
+	margin: 0;
+	padding: 0;
+	height: 1740px;
+	background-image: url('../images/ticks.png');
+	}
+
+#dig-page h3
+	{
+	font-family: 'oswald';
+	width: 90%;
+	margin: 30px auto;
+	font-size: 20px;
+	text-align: center;
+	}
+	
+
+	
+#instr ul
+	{
+	list-style: none;
+	}	
+	
+#instr ul li
+	{
+	display: inline;
+	}	
+	
+#subscriptions
+	{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	border-bottom: 8px solid #ccc;
+	display: block;
+	
+	
+	
+	}
+	
+#subscriptions h2
+	{
+	font-family: 'oswald';
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	}	
+	
+#subscriptions article
+	{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'sintony';
+	}	
+
+#instr-bg
+	{
+	background-image: url('../images/binding_dark.png');
+	padding: 15px 0;
+	}
+
+#instr
+	{
+	width: 75%;
+	height: 400px;
+	border: 1px solid #000;
+	margin: 15px auto;
+	background-color: white;	
+	/*
+	/*background: rgb(214,197,190); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(214,197,190,1) 0%, rgba(186,168,161,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,197,190,1)), color-stop(100%,rgba(186,168,161,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(214,197,190,1) 0%,rgba(186,168,161,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6c5be', endColorstr='#baa8a1',GradientType=0 ); /* IE6-9 */	
+	}
+
+#instr h2, #instr h3
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+#instr h2
+	{
+	font-size: 14px;
+	font-family: 'oswald';
+	padding: 15px 0;
+	text-align: center;
+	}
+	
+#instr h3
+	{
+	font-size: 13px;
+	font-family: 'sintony';
+	text-align: left;
+	padding: 7px 10px;
+	}	
+
+#instr img
+	{
+	display: none;
+	}	
+
+
+
+#storefront
+	{
+	width: 100%;
+	height: 400px;
+	background-position: center top;
+	background-size: 100% auto;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	}
+	
+#tab
+	{
+	display: none;
+	
+	}
+	
+#mob
+	{
+	}		
+
+}
+
+
+
+
+
+
+/* 
+
+------ may or may not be used depending on need for as yet tbd events ----
+
+#comtop20
+	{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/binding_dark.png');
+	}
+	
+#comtop20 h3
+	{
+	font-family: 'oswald';
+	text-align: right;
+	font-size: 34px;
+	color: #fff;
+	line-height: 48px;
+	margin: 0 20px 0 0;
+	}	
+
+#comtop80
+	{
+	width: 80%;
+	height: 300px;
+	float: left;
+	background-color: #fff;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/comicsforum.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	}
+
+#comtwo80
+	{
+	width: 80%;
+	height: 300px;
+	float: left;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/fnm.png');
+	}
+
+#comtwo20
+	{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-color: #fff;
+	}
+
+#comtwo20 p
+	{
+	font-family: 'sintony';
+	font-size: 20px;
+	margin: 10px 20px;
+	}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

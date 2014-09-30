@@ -1,0 +1,116 @@
+/*-- css for calendar page --*/
+
+#calendar
+	{
+	background-image: url('../images/textured_paper.png');
+	}
+
+@media all and (min-width: 1200px)
+{
+#cal-msg
+	{
+	font-family: 'oswald';
+	font-size: 24px;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+#caldesk
+	{
+	width: 1200px;
+	height: 800px;
+	display: block;
+	margin: 0 auto;
+	padding: 1px;
+	}
+
+#caltab
+	{
+	width: 100%;
+	height: 1px;
+	display: none;
+	}
+
+#calmobile
+	{
+	width: 100%;
+	height: 1px;
+	display: none;
+	}	
+}
+
+@media all and (max-width: 1199px) and (min-width: 700px)
+{
+#cal-msg
+	{
+	font-family: 'oswald';
+	font-size: 24px;
+	width: 650px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+#caldesk
+	{
+	width: 1px;
+	height: 1px;
+	display: none;	
+	}
+
+#caltab
+	{
+	width: 700px;
+	height: 600px;
+	display: block;
+	margin: 0 auto;
+	padding: 1px;
+	}
+
+#calmobile
+	{
+	width: 1px;
+	height: 1px;
+	display: none;
+	}
+}
+
+
+@media all and (max-width: 699px) and (min-width: 1px)
+{
+#cal-msg
+	{
+	font-family: 'oswald';
+	font-size: 18px;
+	width: 320px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+#caldesk
+	{
+	width: 1px;
+	height: 1px;
+	display: none;
+	}
+
+#caltab
+	{
+	width: 1px;
+	height: 1px;
+	display: none;
+	}
+
+#calmobile
+	{
+	width: 320px;
+	height: 800px;
+	display: block;
+	margin: 0 auto;
+	padding: 1px;
+	}
+}
+
+
+
+	

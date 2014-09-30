@@ -1,0 +1,109 @@
+/* -- css for community page -- */
+
+
+#content-com
+	{
+	height: 900px;
+	}
+
+ #com-page h3
+	{
+	font-family: 'oswald';
+	width: 90%;
+	margin: 30px auto;
+	font-size: 30px;
+	text-align: center;
+	}
+
+
+
+/* 
+
+------ may or may not be used depending on need for as yet tbd events ----
+
+#comtop20
+	{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/binding_dark.png');
+	}
+	
+#comtop20 h3
+	{
+	font-family: 'oswald';
+	text-align: right;
+	font-size: 34px;
+	color: #fff;
+	line-height: 48px;
+	margin: 0 20px 0 0;
+	}	
+
+#comtop80
+	{
+	width: 80%;
+	height: 300px;
+	float: left;
+	background-color: #fff;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/comicsforum.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	}
+
+#comtwo80
+	{
+	width: 80%;
+	height: 300px;
+	float: left;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url('../images/fnm.png');
+	}
+
+#comtwo20
+	{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-color: #fff;
+	}
+
+#comtwo20 p
+	{
+	font-family: 'sintony';
+	font-size: 20px;
+	margin: 10px 20px;
+	}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
